@@ -1,8 +1,8 @@
 ﻿using System;
 using EP.Project.Business;
 using EP.Project.Business.Abstract;
-using EP.Project.Business.Filters;
 using EP.Project.Entities;
+using EP.Project.WebApi.Filters;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EP.Project.WebApi.Controllers

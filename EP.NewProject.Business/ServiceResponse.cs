@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using EP.Core.Entites;
+﻿using System.Collections.Generic;
 using EP.Project.Business.Abstract;
 using Newtonsoft.Json;
 
 namespace EP.Project.Business
 {
   public class ServiceResponse<T> : ResponseBase
-  where T : IEntity
+  where T : class,new()
   {
     [JsonProperty]
     public T Entity { get; set; }

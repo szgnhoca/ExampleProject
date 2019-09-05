@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-using EP.Core.Entites;
+﻿using System.ComponentModel.DataAnnotations;
 using EP.Project.Entities.Abstract;
 
 namespace EP.Project.Entities
@@ -18,4 +14,5 @@ namespace EP.Project.Entities
     public int SubjectID { get; set; }
     public Subject Subject { get; set; }
   }
+
 }

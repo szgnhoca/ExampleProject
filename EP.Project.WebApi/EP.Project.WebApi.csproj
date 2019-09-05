@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EP.Core\EP.Core.csproj" />
     <ProjectReference Include="..\EP.NewProject.Business\EP.Project.Business.csproj" />
     <ProjectReference Include="..\EP.Project.DataAccess\EP.Project.DataAccess.csproj" />
   </ItemGroup>

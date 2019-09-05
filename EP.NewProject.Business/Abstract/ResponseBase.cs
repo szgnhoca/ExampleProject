@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EP.Project.Business.Abstract
 {
-  public class ResponseBase
+  public abstract class ResponseBase
   {
     public List<string> Errors { get; set; }
     public bool HasError { get; set; }

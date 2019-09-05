@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
-using EP.Core.Entites;
+using System.Text;           
+using EP.Core.Entities;
 
 namespace EP.Project.Entities.Abstract
 {

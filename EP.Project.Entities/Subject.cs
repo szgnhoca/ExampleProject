@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using EP.Core.Entites;
+﻿using System.Collections.Generic;
 using EP.Project.Entities.Abstract;
 
 namespace EP.Project.Entities
